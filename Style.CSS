@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url('images/polka-dots-bg.png') repeat;
+}
+
+.welcome-message {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 2.5rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-item {
+    width: 200px;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.food-item:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.add-to-cart {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
